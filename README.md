@@ -15,9 +15,11 @@ This sample demonstrates how to bind a `System.Data.DataTable` directly to a Syn
 
 ## Prerequisites
 
-* Visual Studio 2022
+* Visual Studio 2022 or Visual Studio Code
 
 ## How to Run the Project
+
+**Visual Studio 2022**
 
 1. Checkout this repository to a local folder.
 2. Open the solution available in the `DataTableS` project folder using Visual Studio 2022.
@@ -25,6 +27,17 @@ This sample demonstrates how to bind a `System.Data.DataTable` directly to a Syn
 4. Run the application.
 5. Navigate to the page containing the Syncfusion Blazor DataGrid sample.
 6. Observe the Grid rendering records retrieved from the configured `System.Data.DataTable` data source.
+
+**Visual Studio Code**
+
+1. Open the repository folder in Visual Studio Code.
+2. Open the integrated terminal.
+3. Navigate to the project directory.
+
+```bash
+dotnet restore
+dotnet run
+```
 
 ## Project Structure
 
